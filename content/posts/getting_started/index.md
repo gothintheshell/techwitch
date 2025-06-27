@@ -43,7 +43,7 @@ While I was at it, the project is now created and the files visible within VS Co
 ## Next step: Installing a theme
 While the tutorial docs utilise `Ananka`, I knew I wanted to use [`risotto`][risotto] 
 
-> Before choosing how to install the theme, I also read a bit about the difference between running the theme as a [submodule] and as the maker of risotto recommends installing it directly vs as a submodule, due to “the difficulty of tracking a specific release” I downloaded it directly from [GitHub][risotto github] as a `.zip file` (Code > Local > Download ZIP) and extracted the files to my themes directory within my local project. (ex. `C:\Users\[username]\cosycodes\themes`) and then followed the instructions to update my `hugo.toml` configuration file to utilise the new theme. 
+> Before choosing how to install the theme, I also read a bit about the difference between running the theme as a [submodule] and as the maker of risotto recommends installing it directly vs as a submodule, due to “the difficulty of tracking a specific release” I downloaded it directly from [GitHub][risotto github] as a `.zip file` (Code > Local > Download ZIP) and extracted the files to my themes directory within my local project. (ex. `C:\Users\[username]\techwitch\themes`) and then followed the instructions to update my `hugo.toml` configuration file to utilise the new theme. 
 
 **Note:** The first time by leaving `risotto-main` (the default name of the extracted folder) in place as a themes subdirectory, instead of changing it to `risotto`, I experienced compiling errors vs as I had set the theme in my `hugo.toml` as `theme = 'risotto'`, so make sure these two items match!
 
@@ -53,7 +53,7 @@ I tested it and YAY, it mostly looks good except why is there `$ echo $ LANG` ne
 `<span class="active">$ echo $LANG<br/><b>{{ .LanguageName }}</b></span>`. As I didn't like the aesthetic of the display, I commented out the `.Page.AllTranslations` range block it was nested within, just in case I change my mind and want to bring it back later. 
 
 It's a start! 
-![screenshot of initial Cosy Codes website](../images/firstpushpreview.png)
+![screenshot of initial Techwitch website](first_attempt.png)
 
 
 [Hugo]: https://gohugo.io/
