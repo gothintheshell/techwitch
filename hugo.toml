@@ -1,4 +1,4 @@
-baseURL = "https://"
+baseURL = "/"
 theme = "risotto"
 title = "techwitch"
 author = "gothintheshell"
@@ -12,6 +12,10 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [pagination]
 pagerSize = 3
@@ -47,6 +51,12 @@ url = "https://mstdn.social/@techvvitch"
 
 
 [menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 1
 
   [[menu.main]]
     identifier = "privacy"
