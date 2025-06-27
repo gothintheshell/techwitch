@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://www.techwitch.space"
 theme = "risotto"
 title = "techwitch"
 author = "gothintheshell"
