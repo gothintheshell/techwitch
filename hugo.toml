@@ -22,15 +22,15 @@ pagerSize = 3
 
 [params]
 noindex = false
-customCSS = ["css/custom.css"]
+customCSS = ["css/techwitch.css"]
 theme.palette = "techwitch"
 
 # Sidebar: about/bio
 [params.about]
 title = "techwitch"
-description = "A [hugo](https://gohugo.io) blog built with the risotto theme."
+description = "Finding the magic in technology."
 # unicode/emoji logo:
-logo = "🍚"
+logo = "🪄🐌"
 # or use an image:
 #logo_image = "images/rice.svg"
 
