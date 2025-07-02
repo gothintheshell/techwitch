@@ -17,7 +17,11 @@ As I'm also starting out, I felt a static website would be a good start as I don
 
 For the initial setup of the blog, I followed the [Hugo Quick Start guide][quickstart]. 
 
-As I dug through the Hugo documentation, I was looking for what I would get needed to start: 
+As I dug through the Hugo documentation, I was looking for what I would get needed to start. It's a bit of a process so take it one step at a time and you'll be fine. 
+
+<div class="giphy-embed">
+    <iframe src="https://giphy.com/embed/1GZmVKsn5hVKfwxdjx" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+</div>
 
 ## Pre-requisites: 
 1) If you don't have an integrated developer environment (IDE) or lightweight client in which to write your code, I recommend doing so. There are a number of options out there. **VS Code** is the most popular, according to the [Stack Overflow Developer Survey][survey] (2023). However, other popular options include: Intellij IDEA, Notepad++, Vim, PyCharm, etc.
@@ -35,6 +39,8 @@ As I dug through the Hugo documentation, I was looking for what I would get need
 
 7) *(Optional)* I also chose to install [GitHub Desktop], as a graphical user interface (GUI) for Git and one I can use to easily connect with my GitHub.com account when I’m ready to push my local changes there. You can also choose to use `git` from the command line, so just choose which works best for you! 
 
+![screenshot of showing a UI of GitHub Desktop, which includes: Current repository, Current branch, and Fetch origin, plus action buttons to edit or commit your code changes](ghdesktop.png)
+
 ## Additional files creation 
 While I was at it, the project is now created and the files visible within VS Code, I created a short `README.md` and a [`.gitignore`][gitignore] file using a couple of GitHub’s examples for Go and Hugo for my repo, in following best practices. 
 - The README.md normally provides a short description of your project, as well as any useful and relevant information that people may need or want to know about your repo, its purpose, and its use.  
@@ -49,7 +55,12 @@ While the tutorial docs utilise `Ananka`, I knew I wanted to use [`risotto`][ris
 
 I made a few minor amendments to my `hugo.toml` file to add a custom theme template, my own social links, and the addition of a dedicated privacy policy page.  Then made sure to save any files I amended in VS Studio before running the `hugo server` command from within my terminal session. 
 
-I tested it and YAY, it mostly looks good except why is there `$ echo $ LANG` near the bottom of my page. A quick search of where this was found in the code base revealed this was being rendered as a part of displaying the current language, in 
+## Unexpected content on page
+I tested it and YAY, it mostly looks good except why is there `$ echo $ LANG` near the bottom of my page?! 
+
+![screenshot showing $ echo $LANG in hot pink against a dark grey background](echolang.png)
+
+A quick search of where this was found in the code base revealed this was being rendered as a part of displaying the current language, in 
 `<span class="active">$ echo $LANG<br/><b>{{ .LanguageName }}</b></span>`. As I didn't like the aesthetic of the display, I commented out the `.Page.AllTranslations` range block it was nested within, just in case I change my mind and want to bring it back later. 
 
 It's a start! 
