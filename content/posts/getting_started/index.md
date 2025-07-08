@@ -17,7 +17,7 @@ As I'm also starting out, I felt a static website would be a good start as I don
 
 For the initial setup of the blog, I followed the [Hugo Quick Start guide][quickstart]. 
 
-As I dug through the Hugo documentation, I was looking for what I would get needed to start. It's a bit of a process so take it one step at a time and you'll be fine. 
+As I dug through the Hugo documentation, I was looking for what I would need to get started. It's a bit of a process so take it one step at a time and you'll be fine. 
 
 <div class="giphy-embed">
     <iframe src="https://giphy.com/embed/1GZmVKsn5hVKfwxdjx" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -28,8 +28,8 @@ As I dug through the Hugo documentation, I was looking for what I would get need
 2) Install a package manager, common package managers are `Homebrew` (MacOS) or `Chocolately` (Windows) but I’ve also used `pip` and `pipenv` (both for Python packages). Having a package manager will make the installation and management of the various packages you require later on *easier*.  Other package managers are of course available. 😸
     - In this case I installed [`Chocolately`][chocolately], as I’ve used it before. 
     - Regardless of package manager, for any package you want to download and install, **_you should check into the security and integrity of the package being downloaded_**, ensuring you’re installing what you think you’re installing and not introducing security vulnerabilities to your systems or your application. For this reason, I recommend only downloading from reputable and recognised package registries, such as PyPi, npm, NuGet, Terraform, etc. While this will reduce the risk, it will not completely eliminate it - but we can further discuss application security tooling in future posts! 
-3) Install [Git]. It’s needed for much of the functionality you need when working with Hugo, please go to the Hugo docs for additional details. 
-4) Install [Go], as the language is commonly used when working with Hugo.
+3) Install [Git]. It is needed for much of the functionality you need when working with Hugo (and more generally for tracking changes and version management in software development), please go to the Hugo docs for additional details. 
+4) Install [Go], this is programming language Hugo is written in, so you will need this in order to work with Hugo.
 5) Install [Dart Sass], it’s used as part of transpiling, or converting, Sass to CSS. As I already had Chocolately installed it was as easy as running `choco install sass` in an command prompt (cmd) and answering `Y` to whether I want to run the related install scripts. 
 
 ## Install Hugo 
@@ -42,7 +42,7 @@ As I dug through the Hugo documentation, I was looking for what I would get need
 ![screenshot of showing a UI of GitHub Desktop, which includes: Current repository, Current branch, and Fetch origin, plus action buttons to edit or commit your code changes](ghdesktop.png)
 
 ## Additional files creation 
-While I was at it, the project is now created and the files visible within VS Code, I created a short `README.md` and a [`.gitignore`][gitignore] file using a couple of GitHub’s examples for Go and Hugo for my repo, in following best practices. 
+While I was at it, once the project was created and the files visible within VS Code (following the Hugo [quickstart guide][quickstart]), I created a short `README.md` and a [`.gitignore`][gitignore] file using a couple of GitHub’s examples for Go and Hugo for my repo, in following best practices. 
 - The README.md normally provides a short description of your project, as well as any useful and relevant information that people may need or want to know about your repo, its purpose, and its use.  
 - A .gitignore file is important to help ensure you are not committing any sensitive files to your repo. This is especially important if you sharing this repo publicly, such as on GitHub or GitLab, other source code managers are out there! 
 
