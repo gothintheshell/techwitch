@@ -59,6 +59,12 @@ url = "https://mstdn.social/@techvvitch"
     weight = 1
 
   [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 5
+
+  [[menu.main]]
     identifier = "privacy"
     name = "privacy"
     url = "/privacy/"
