@@ -22,3 +22,7 @@ These websites may collect data about you, use cookies, embed additional third-p
 Where possible I have configured this site to operate with privacy in mind, such as ensuring Google Analytics is disabled for the techwitch.space website, and preventing embedded services from utilising page data for personalised suggestions and ads. 
 
 If you wish to further limit this type of external, third-party tracking, I would recommend the use of privacy preserving tools such as privacy and cookies/tracker blocking browser extensions to limit the amount of tracking and data available.
+
+## Third Party Data Collection
+
+This website is hosted on GitHub Pages, as a part of the hosting provider's security measures, your IP will be logged and stored by GitHub, regardless of whether you are signed in with a GitHub account or not. I do not have control over GitHub's security measures but if you would like more information, please see [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
