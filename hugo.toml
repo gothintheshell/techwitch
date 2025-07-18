@@ -47,7 +47,12 @@ url = "https://github.com/gothintheshell"
 [[params.socialLinks]]
 icon = "fa-brands fa-mastodon"
 title = "Mastodon"
-url = "https://mstdn.social/@techvvitch"
+url = "https://infosec.exchange/@cosyskog"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-bluesky"
+title = "Bluesky"
+url = "https://bsky.app/profile/gothintheshell.bsky.social"
 
 
 [menu]
@@ -117,5 +122,5 @@ unsafe = true
   [services.instagram]
     disableInlineCSS = true
 
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true
