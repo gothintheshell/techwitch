@@ -1,6 +1,6 @@
 +++
 date = '2025-07-13T19:54:11+01:00'
-title = 'Mysterious_skies'
+title = 'Mysterious skies'
 author = 'gothintheshell'
 draft = false
 +++
