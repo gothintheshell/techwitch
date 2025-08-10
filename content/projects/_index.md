@@ -1,17 +1,10 @@
 ---
-title: "Franconia Reimagined"
+title: "My Projects"
 ---
 
-This is an digital art project focused on my favourite sculpture park, *[Franconia Sculpture Park](https://www.franconia.org)*. It's a magical place. ✨ 
+This is a space to share all the little (and not so little) things I've been working on. ✨
 
-I've been there numerous of times, 
-in all four seasons, 
-and if you have a special place in my life, I've probably taken you there. 😻
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/6Rp9ZYEy13cKhHZH5Z" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><br>
 
-![A woman resting and staying warm inside a hexagonal padded sculpture which is orange from the inside. The woman is dressed in all black and the view looks over her raised knee to look out on additional sculptures and the park, covered in snow.](franconiawinter.jpg)
-
-In attempting to view the artwork through a different lens or view, I've taken my own original images and modified them using image editing software to produce a new perspective. 
-
-> *All sculptures are the respective artwork of the artists, the photos used and modified within this project are mine.*
-
-Posts: 
+- Franconia Reimagined: Is an art project of mine and a way for me to share some of my love for this outdoor sculpture park.
+- Enchancing Your Privacy: Is an ongoing project where I share my own journey in moving away from some of the bigger tech platforms, and my move toward more privacy-conscious choices when it comes to the technology we use every day. 
