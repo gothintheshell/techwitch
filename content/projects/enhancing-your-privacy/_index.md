@@ -12,3 +12,5 @@ Also if you've never watched it, [They Live](https://theofficialjohncarpenter.co
 Maybe I'll end up creating an entire list later on of various movies which cover related topics. 
 
 Whether or not you choose to follow along is up to you, but I figured I would share this in the hopes that if you're someone who is also becoming increasingly concerned at the ways in which our personal data is being used by these companies, that you'll realise you have options. 
+
+Posts:  
